@@ -1,18 +1,28 @@
 ## Hi, I'm Guilherme Fialho
 
-**Machine Learning Engineer (GenAI/LLMs) and Data Engineer** · Rio de Janeiro, Brazil
+**Data & Machine Learning Engineer (GenAI/LLMs)** · Rio de Janeiro, Brazil (UTC−3) · Open to remote roles
 
-I build production GenAI products on top of solid data platforms: LLM agents with
-evaluation and guardrails, and the pipelines, warehouses and infrastructure they depend on.
-Most of my work runs on Google Cloud.
+I build production GenAI products on top of solid data platforms: LLM agents and extraction
+pipelines with evaluation and guardrails, and the pipelines, warehouses and infrastructure they
+depend on, on AWS and Google Cloud.
 
 ### What I work on
 
-At **IPNET by Vivo** (Google Cloud Premier Partner), since 2023:
+**Data & ML Engineer** at a government-sector organization (confidential), since 2026, on AWS:
 
-- **WhatsApp Contact Center AI**: an enterprise AI agent that answers customers using
-  business actions and a knowledge base. It keeps per-customer context in the CRM and
-  hands off to humans by email ticketing or through Google Cloud CCAI.
+- **Transformation layer redesign**: moved Athena + Airflow transformations to SQLMesh with
+  incremental models, column-level lineage and tests on every model: ~40% faster processing at
+  ~65% lower cost. Infrastructure with Terraform, orchestrated by Azure DevOps CI pipelines.
+- **Document-to-form automation**: an LLM pipeline that reads submitted documents, extracts the
+  required fields with schema-constrained outputs and pre-fills a structured form, with a human
+  review step before anything is committed.
+
+At **IPNET by Vivo** (Google Cloud Premier Partner), 2023–2026, Data Engineer, then ML Engineer:
+
+- **WhatsApp Contact Center AI**: an enterprise AI agent rolled out to ~1,000 businesses that
+  answers customers using business actions and a knowledge base, keeps per-customer behavioral
+  profiles in the CRM, scores its own answers in an evaluation layer and hands off to humans by
+  email ticketing or Google Cloud CCAI.
 - **Accelero**: a Google Chat assistant that reads the last 24 hours of conversations and
   delivers each person's action items every morning. Messages are processed in memory only,
   in line with LGPD.
@@ -25,18 +35,19 @@ At **IPNET by Vivo** (Google Cloud Premier Partner), since 2023:
 | Project | What it shows | Stack |
 |---|---|---|
 | [dental-analytics-medallion](https://github.com/gcfialho/dental-analytics-medallion) | Bronze/silver/gold pipeline on public health data, a data audit that fixed v1's numbers, and an LLM brief whose every figure is fact-checked against the warehouse | dbt · DuckDB · OpenAI · Streamlit |
+| [lgpd-face-redactor](https://github.com/gcfialho/lgpd-face-redactor) | Blurs every face in a video except the data subject's, for LGPD/GDPR access requests: runs locally, fails safe and writes an audit record of every decision | Python · OpenCV (YuNet + SFace) |
 | [marketing-report-generator](https://github.com/gcfialho/marketing-report-generator) | Funnel and channel analysis of messy CRM exports with honest statistics: Wilson intervals, multiple-testing correction, a logistic model with odds ratios | pandas · statsmodels · SciPy |
 | [uerj-marica-transit-network](https://github.com/gcfialho/uerj-marica-transit-network) | Graph model of a city bus network: centrality, connectivity, shortest routes and [interactive maps](https://gcfialho.github.io/uerj-marica-transit-network/) | NetworkX · Folium |
 | [uerj-optimization-methods](https://github.com/gcfialho/uerj-optimization-methods) | Nelder–Mead from scratch that matches SciPy step for step, and a constrained design optimizer with Newton and quasi-Newton methods | NumPy · SciPy · Flask |
 
 ### Toolbox
 
-- **Languages:** Python, TypeScript/Node.js, SQL
+- **Languages:** Python, TypeScript/Node.js, SQL, Go
 - **AI/ML:** LLM orchestration, agent workflows, RAG and embeddings, structured extraction,
-  evaluation pipelines, Vertex AI, Google CCAI
-- **Data:** Airflow/Cloud Composer, Apache Beam/Dataflow, BigQuery, dbt, DuckDB
-- **Infrastructure:** Docker, Kubernetes, Pulumi, Terraform, Kafka, GitHub Actions
-- **Cloud:** Google Cloud, Oracle Cloud and AWS
+  evaluation pipelines, MCP servers, Vertex AI, Google CCAI
+- **Data:** SQLMesh, dbt, Airflow/Cloud Composer, Apache Beam/Dataflow, BigQuery, Athena, Snowflake, DuckDB
+- **Backend & infrastructure:** FastAPI, Docker, Kubernetes, Terraform, Pulumi, Kafka, GitHub Actions, Azure DevOps
+- **Cloud:** AWS (Athena, ECS, RDS, EC2), Google Cloud, Oracle Cloud
 
 ### Certifications
 
