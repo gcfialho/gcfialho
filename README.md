@@ -4,7 +4,7 @@
 
 I build production GenAI products on top of solid data platforms: LLM agents and extraction
 pipelines with evaluation and guardrails, and the pipelines, warehouses and infrastructure they
-depend on, on AWS and Google Cloud.
+depend on, on AWS and Google Cloud. Certified on Google Cloud and Oracle Cloud Infrastructure (OCI).
 
 ### What I work on
 
@@ -52,7 +52,7 @@ More coursework, rewritten as tested packages with measured results:
   evaluation pipelines, MCP servers, Vertex AI, Google CCAI
 - **Data:** SQLMesh, dbt, Airflow/Cloud Composer, Apache Beam/Dataflow, BigQuery, Athena, Snowflake, DuckDB
 - **Backend & infrastructure:** FastAPI, Docker, Kubernetes, Terraform, Pulumi, Kafka, GitHub Actions, Azure DevOps
-- **Cloud:** AWS (Athena, ECS, RDS, EC2), Google Cloud, Oracle Cloud
+- **Cloud:** AWS (Athena, ECS, RDS, EC2), Google Cloud, Oracle Cloud Infrastructure (OCI)
 
 ### Certifications
 
