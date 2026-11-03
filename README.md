@@ -1,6 +1,6 @@
 ## Hi, I'm Guilherme Fialho
 
-**Data & Machine Learning Engineer (GenAI/LLMs)** · Rio de Janeiro, Brazil (UTC−3) · Open to remote roles
+**Data & Machine Learning Engineer (GenAI/LLMs)** · Rio de Janeiro, Brazil (UTC−3) · Open to remote roles · [gcfialho.github.io](https://gcfialho.github.io)
 
 I build production GenAI products on top of solid data platforms: LLM agents and extraction
 pipelines with evaluation and guardrails, and the pipelines, warehouses and infrastructure they
@@ -37,8 +37,8 @@ At **IPNET by Vivo** (Google Cloud Premier Partner), 2023–2026, Data Engineer,
 | [dental-analytics-medallion](https://github.com/gcfialho/dental-analytics-medallion) | Bronze/silver/gold pipeline on public health data, a data audit that fixed v1's numbers, and an LLM brief whose every figure is fact-checked against the warehouse | dbt · DuckDB · OpenAI · Streamlit |
 | [lgpd-face-redactor](https://github.com/gcfialho/lgpd-face-redactor) | Blurs every face in a video except the data subject's, for LGPD/GDPR access requests: runs locally, fails safe and writes an audit record of every decision | Python · OpenCV (YuNet + SFace) |
 | [marketing-report-generator](https://github.com/gcfialho/marketing-report-generator) | Funnel and channel analysis of messy CRM exports with honest statistics: Wilson intervals, multiple-testing correction, a logistic model with odds ratios | pandas · statsmodels · SciPy |
-| [uerj-marica-transit-network](https://github.com/gcfialho/uerj-marica-transit-network) | Graph model of a city bus network: centrality, connectivity, shortest routes and [interactive maps](https://gcfialho.github.io/uerj-marica-transit-network/) | NetworkX · Folium |
-| [uerj-optimization-methods](https://github.com/gcfialho/uerj-optimization-methods) | Nelder–Mead from scratch that matches SciPy step for step, and a constrained design optimizer with Newton and quasi-Newton methods | NumPy · SciPy · Flask |
+| [uerj-marica-transit-network](https://github.com/gcfialho/uerj-marica-transit-network) | Graph model of a city bus network: centrality, shortest routes, reach by number of transfers and stop spacing, in a [bilingual explorer](https://gcfialho.github.io/uerj-marica-transit-network/) | NetworkX · MapLibre |
+| [uerj-optimization-methods](https://github.com/gcfialho/uerj-optimization-methods) | Nelder–Mead from scratch that matches SciPy step for step, and a constrained design optimizer with Newton and quasi-Newton methods, both runnable in a [browser lab](https://gcfialho.github.io/uerj-optimization-methods/) | NumPy · Pyodide · Plotly |
 
 ### Toolbox
 
