@@ -34,6 +34,7 @@ At **IPNET by Vivo** (Google Cloud Premier Partner), 2023–2026, Data Engineer,
 
 | Project | What it shows | Stack |
 |---|---|---|
+| [docfunnel](https://github.com/gcfialho/docfunnel) | CPU-first document pipeline for LLMs: PDF parsing with per-page OCR routing, schema-validated extraction with retries and fallback, and evals for accuracy, hallucination, cost and latency (CLI, FastAPI, MCP server) | pypdfium2 · RapidOCR · Pydantic · FastAPI · MCP |
 | [dental-analytics-medallion](https://github.com/gcfialho/dental-analytics-medallion) | Bronze/silver/gold pipeline on public health data, a data audit that fixed v1's numbers, and an LLM brief whose every figure is fact-checked against the warehouse | dbt · DuckDB · OpenAI · Streamlit |
 | [lgpd-face-redactor](https://github.com/gcfialho/lgpd-face-redactor) | Blurs every face in a video except the data subject's, for LGPD/GDPR access requests: runs locally, fails safe and writes an audit record of every decision | Python · OpenCV (YuNet + SFace) |
 | [marketing-report-generator](https://github.com/gcfialho/marketing-report-generator) | Funnel and channel analysis of messy CRM exports with honest statistics (Wilson intervals, Holm correction, a logistic model), validated against known true rates in simulation | pandas · statsmodels · SciPy |
