@@ -36,9 +36,13 @@ At **IPNET by Vivo** (Google Cloud Premier Partner), 2023–2026, Data Engineer,
 |---|---|---|
 | [dental-analytics-medallion](https://github.com/gcfialho/dental-analytics-medallion) | Bronze/silver/gold pipeline on public health data, a data audit that fixed v1's numbers, and an LLM brief whose every figure is fact-checked against the warehouse | dbt · DuckDB · OpenAI · Streamlit |
 | [lgpd-face-redactor](https://github.com/gcfialho/lgpd-face-redactor) | Blurs every face in a video except the data subject's, for LGPD/GDPR access requests: runs locally, fails safe and writes an audit record of every decision | Python · OpenCV (YuNet + SFace) |
-| [marketing-report-generator](https://github.com/gcfialho/marketing-report-generator) | Funnel and channel analysis of messy CRM exports with honest statistics: Wilson intervals, multiple-testing correction, a logistic model with odds ratios | pandas · statsmodels · SciPy |
+| [marketing-report-generator](https://github.com/gcfialho/marketing-report-generator) | Funnel and channel analysis of messy CRM exports with honest statistics (Wilson intervals, Holm correction, a logistic model), validated against known true rates in simulation | pandas · statsmodels · SciPy |
 | [uerj-marica-transit-network](https://github.com/gcfialho/uerj-marica-transit-network) | Graph model of a city bus network: centrality, shortest routes, reach by number of transfers and stop spacing, in a [bilingual explorer](https://gcfialho.github.io/uerj-marica-transit-network/) | NetworkX · MapLibre |
 | [uerj-optimization-methods](https://github.com/gcfialho/uerj-optimization-methods) | Nelder–Mead from scratch that matches SciPy step for step, and a constrained design optimizer with Newton and quasi-Newton methods, both runnable in a [browser lab](https://gcfialho.github.io/uerj-optimization-methods/) | NumPy · Pyodide · Plotly |
+
+Every project above is tested and type-checked (mypy strict) in CI. Live demos: the
+[transit explorer](https://gcfialho.github.io/uerj-marica-transit-network/) and the
+[optimization lab](https://gcfialho.github.io/uerj-optimization-methods/), both in Portuguese and English.
 
 More coursework, rewritten as tested packages with measured results:
 [uerj-advection-schemes](https://github.com/gcfialho/uerj-advection-schemes) (finite-difference and TVD schemes),
