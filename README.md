@@ -40,6 +40,11 @@ At **IPNET by Vivo** (Google Cloud Premier Partner), 2023–2026, Data Engineer,
 | [uerj-marica-transit-network](https://github.com/gcfialho/uerj-marica-transit-network) | Graph model of a city bus network: centrality, shortest routes, reach by number of transfers and stop spacing, in a [bilingual explorer](https://gcfialho.github.io/uerj-marica-transit-network/) | NetworkX · MapLibre |
 | [uerj-optimization-methods](https://github.com/gcfialho/uerj-optimization-methods) | Nelder–Mead from scratch that matches SciPy step for step, and a constrained design optimizer with Newton and quasi-Newton methods, both runnable in a [browser lab](https://gcfialho.github.io/uerj-optimization-methods/) | NumPy · Pyodide · Plotly |
 
+More coursework, rewritten as tested packages with measured results:
+[uerj-advection-schemes](https://github.com/gcfialho/uerj-advection-schemes) (finite-difference and TVD schemes),
+[uerj-intro-ai](https://github.com/gcfialho/uerj-intro-ai) (search, constraint satisfaction, an MLP from scratch) and
+[uerj-linear-models](https://github.com/gcfialho/uerj-linear-models) (OLS inference and diagnostics).
+
 ### Toolbox
 
 - **Languages:** Python, TypeScript/Node.js, SQL, Go
