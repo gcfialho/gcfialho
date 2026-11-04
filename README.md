@@ -8,11 +8,11 @@ depend on, on AWS and Google Cloud. Certified on Google Cloud and Oracle Cloud I
 
 ### What I work on
 
-**Data & ML Engineer** at a government-sector organization (confidential), since 2026, on AWS:
+**Data & ML Engineer** at a government-sector organization since 2026, on AWS:
 
-- **Transformation layer redesign**: moved Athena + Airflow transformations to SQLMesh with
-  incremental models, column-level lineage and tests on every model: ~40% faster processing at
-  ~65% lower cost. Infrastructure with Terraform, orchestrated by Azure DevOps CI pipelines.
+- **Transformation layer redesign**: migrated Spark jobs on EMR clusters to SQLMesh models running
+  on Athena, orchestrated by Airflow, with incremental models, column-level lineage and tests on
+  every model: ~40% faster processing at ~65% lower cost. Infrastructure with Terraform, orchestrated by Azure DevOps CI pipelines.
 - **Document-to-form automation**: an LLM pipeline that reads submitted documents, extracts the
   required fields with schema-constrained outputs and pre-fills a structured form, with a human
   review step before anything is committed.
@@ -57,7 +57,7 @@ More coursework, rewritten as tested packages with measured results:
   evaluation pipelines, MCP servers, Vertex AI, Google CCAI
 - **Data:** SQLMesh, dbt, Airflow/Cloud Composer, Apache Beam/Dataflow, BigQuery, Athena, Snowflake, DuckDB
 - **Backend & infrastructure:** FastAPI, Docker, Kubernetes, Terraform, Pulumi, Kafka, GitHub Actions, Azure DevOps
-- **Cloud:** AWS (Athena, ECS, RDS, EC2), Google Cloud, Oracle Cloud Infrastructure (OCI)
+- **Cloud:** AWS (Athena, EMR, ECS, RDS, EC2), Google Cloud, Oracle Cloud Infrastructure (OCI)
 
 ### Certifications
 
